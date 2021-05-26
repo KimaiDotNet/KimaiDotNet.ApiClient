@@ -40,7 +40,7 @@ namespace KimaiDotNet.Console
                                     var username = configuration.GetSection("Sample").GetValue<string>("username");
                                     var password = configuration.GetSection("Sample").GetValue<string>("password");
                                     var baseUrl = configuration.GetSection("Sample").GetValue<string>("baseurl");
-                                    args = new string[0];
+                                    args = Array.Empty<string>();
                                     args = args.Append($"-u {username}").ToArray();
                                     args = args.Append($"-p {password}").ToArray();
                                     args = args.Append($"-b {baseUrl}").ToArray();
