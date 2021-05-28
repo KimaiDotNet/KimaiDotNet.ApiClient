@@ -31,7 +31,7 @@ using static Nuke.Common.Tools.ReportGenerator.ReportGeneratorTasks;
 [ShutdownDotNetAfterServerBuild]
 [GitHubActions(
     "dotnet-core",
-    GitHubActionsImage.UbuntuLatest,
+    GitHubActionsImage.WindowsLatest,
     OnPushBranches = new[] { MainBranch, DevelopBranch, ReleaseBranchPrefix + "/*" },
     InvokedTargets = new[] { nameof(Publish) },
     ImportGitHubTokenAs = nameof(GitHubToken),
@@ -100,7 +100,8 @@ partial class Build : NukeBuild
          .Executes(() =>
          {
              DotNetBuild(s => s
-                 .SetProjectFile(Solution)
+                 //.SetProjectFile(Solution)
+                 .SetProjectFile(SourceDirectory / "KimaiDotNet.Core")
                  .SetConfiguration(Configuration)
                  .SetAssemblyVersion(GitVersion.AssemblySemVer)
                  .SetFileVersion(GitVersion.AssemblySemFileVer)
