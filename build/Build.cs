@@ -32,7 +32,7 @@ using static Nuke.Common.Tools.ReportGenerator.ReportGeneratorTasks;
 [GitHubActions(
     "dotnet-core",
     GitHubActionsImage.WindowsLatest,
-    OnPushBranches = new[] { MainBranch, DevelopBranch, ReleaseBranchPrefix + "/*" },
+    OnPushBranches = new[] { MainBranch, DevelopBranch, ReleaseBranchPrefix + "/*", VersionBranchPrefix + "*" },
     InvokedTargets = new[] { nameof(Publish) },
     ImportGitHubTokenAs = nameof(GitHubToken),
     ImportSecrets =
@@ -70,6 +70,7 @@ partial class Build : NukeBuild
     private const string MainBranch = "main";
     private const string DevelopBranch = "develop";
     private const string ReleaseBranchPrefix = "release";
+    private const string VersionBranchPrefix = "v";
 
     private bool IsOriginalRepository => GitRepository != null && GitRepository.Identifier == "MarkZither/KimaiDotNet";
 
