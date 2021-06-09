@@ -9,3 +9,4 @@ Thank you to all our backers! [Become a backer](https://www.buymeacoffee.com/mar
 ## Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [Become a sponsor](https://www.buymeacoffee.com/markzither)
+![BigDoor24.pl](https://bigdoor24.pl/Images/bigdoor24-white-wide-logo.png)
