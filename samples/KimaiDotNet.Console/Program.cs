@@ -18,9 +18,9 @@ using Microsoft.Rest;
 
 namespace KimaiDotNet.Console
 {
-    class Program
+    internal class Program
     {
-        static async Task Main(string[] args) => await BuildCommandLine()
+        private static async Task Main(string[] args) => await BuildCommandLine()
                     .UseHost(_ => Host.CreateDefaultBuilder(),
                         host =>
                         {
@@ -34,7 +34,7 @@ namespace KimaiDotNet.Console
                                 config.AddUserSecrets<Program>();
                                 var configuration = config.Build();
 
-                                if(args is null)
+                                if (args is null)
                                 {
                                     //add some defaults from config
                                     var username = configuration.GetSection("Sample").GetValue<string>("username");
@@ -70,7 +70,7 @@ namespace KimaiDotNet.Console
 
         private static CommandLineBuilder BuildCommandLine()
         {
-            var root = new RootCommand(@"$ MarkZither.KimaiDotNet.Console.exe --username ""username"" --password ""password"" -u ""http://localhost:8001"""){
+            var root = new RootCommand(@"$ MarkZither.KimaiDotNet.Console.exe --username ""username"" --password ""password"" -u ""http://localhost:8001"""){ //DevSkim: ignore DS137138
                 new Option<string>(aliases: new string[] { "--UserName", "-u" }){
                     Description = "The username",
                     IsRequired = true

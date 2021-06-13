@@ -14,10 +14,12 @@ using Nuke.Common.Tools.GitVersion;
 using Nuke.Common.Tools.ReportGenerator;
 using Nuke.Common.Utilities;
 using Nuke.Common.Utilities.Collections;
+
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+
 using static Nuke.Common.ChangeLog.ChangelogTasks;
 using static Nuke.Common.ControlFlow;
 using static Nuke.Common.IO.CompressionTasks;
@@ -49,7 +51,6 @@ partial class Build : NukeBuild
     ///   - Microsoft VisualStudio     https://nuke.build/visualstudio
     ///   - Microsoft VSCode           https://nuke.build/vscode
     /// </summary>
-
     public static int Main() => Execute<Build>(x => x.Compile);
 
     [CI] private readonly TeamCity TeamCity;
@@ -183,7 +184,7 @@ partial class Build : NukeBuild
          .Executes(() =>
          {
              DotNetPack(_ => _
-                 .SetProject(SourceDirectory/ "KimaiDotNet.Core/KimaiDotNet.Core.csproj")
+                 .SetProject(SourceDirectory / "KimaiDotNet.Core/KimaiDotNet.Core.csproj")
                  .SetNoBuild(InvokedTargets.Contains(Compile))
                  .SetConfiguration(Configuration)
                  .SetOutputDirectory(PackageDirectory)
