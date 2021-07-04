@@ -118,7 +118,7 @@ partial class Build : NukeBuild
             .DependsOn(Compile)
             .Produces(TestResultDirectory / "*.trx")
             .Produces(TestResultDirectory / "*.xml")
-            .Partition(() => TestPartition)
+            .Partition(2)
             .Executes(() =>
             {
                 DotNetTest(_ => _
