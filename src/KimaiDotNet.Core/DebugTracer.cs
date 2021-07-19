@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MarkZither.KimaiDotNet.Core
 {
-    class DebugTracer : IServiceClientTracingInterceptor
+    public class DebugTracer : IServiceClientTracingInterceptor
     {
         public void Information(string message)
         {
