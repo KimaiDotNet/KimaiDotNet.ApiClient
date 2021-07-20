@@ -1,11 +1,13 @@
 ﻿using FakeItEasy;
 
 using MarkZither.KimaiDotNet;
+using MarkZither.KimaiDotNet.Core.Tests.Configuration;
 using MarkZither.KimaiDotNet.Models;
 
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,16 +19,22 @@ namespace MarkZither.KimaiDotNet.Core.Tests
     public class Kimai2APIDocsTests
     {
         private HttpClient fakeHttpClient;
-
+        private HttpClient Client;
+        private KimaiApiOptions configuration;
         public Kimai2APIDocsTests()
         {
             this.fakeHttpClient = A.Fake<HttpClient>();
+            configuration = TestHelper.GetApplicationConfiguration(Directory.GetCurrentDirectory());
+            Client = new HttpClient();
+            Client.BaseAddress = new Uri(configuration.Url);
+            Client.DefaultRequestHeaders.Add("X-AUTH-USER", configuration.Username);
+            Client.DefaultRequestHeaders.Add("X-AUTH-TOKEN", configuration.Password);
         }
 
         private Kimai2APIDocs CreateKimai2APIDocs()
         {
             return new Kimai2APIDocs(
-                this.fakeHttpClient, true);
+                this.Client, true);
         }
         public class MessageHandler1 : DelegatingHandler
         {
@@ -91,7 +99,7 @@ namespace MarkZither.KimaiDotNet.Core.Tests
                 cancellationToken);
 
             // Assert
-            Assert.True(false);
+            Assert.True(result.Response.IsSuccessStatusCode);
         }
 
         [Fact]
