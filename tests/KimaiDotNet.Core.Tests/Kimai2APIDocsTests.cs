@@ -12,10 +12,13 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
+using VerifyXunit;
+
 using Xunit;
 
 namespace MarkZither.KimaiDotNet.Core.Tests
 {
+    [UsesVerify]
     public class Kimai2APIDocsTests
     {
         private HttpClient fakeHttpClient;
@@ -100,6 +103,7 @@ namespace MarkZither.KimaiDotNet.Core.Tests
 
             // Assert
             Assert.True(result.Response.IsSuccessStatusCode);
+            await Verifier.Verify(result.Body);
         }
 
         [Fact]
