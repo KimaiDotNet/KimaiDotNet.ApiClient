@@ -1,0 +1,16 @@
+﻿{
+  username: john_user,
+  enabled: true,
+  language: en,
+  timezone: Europe/Rome,
+  id: Id_1,
+  alias: John Doe,
+  title: Developer,
+  avatar: https://www.gravatar.com/avatar/00000000000000000000000000000000?d=retro&f=y,
+  teams: [
+    {
+      id: Id_2,
+      name: Beer Ltd 9
+    }
+  ]
+}

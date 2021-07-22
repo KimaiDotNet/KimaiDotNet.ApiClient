@@ -1,0 +1,26 @@
+﻿{
+  username: susan_super,
+  enabled: true,
+  roles: [
+    ROLE_SUPER_ADMIN
+  ],
+  language: de,
+  timezone: Europe/Berlin,
+  id: Id_1,
+  title: Super Administrator,
+  avatar: /build/images/default_avatar.png,
+  teams: [
+    {
+      id: Id_2,
+      name: Watsica-Schaefer 2
+    },
+    {
+      id: Id_3,
+      name: Cormier LLC 7
+    },
+    {
+      id: Id_4,
+      name: Beer Ltd 9
+    }
+  ]
+}

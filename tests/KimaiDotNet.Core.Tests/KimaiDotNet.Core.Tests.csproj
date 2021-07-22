@@ -53,4 +53,32 @@
     <ProjectReference Include="..\..\src\KimaiDotNet.Core\KimaiDotNet.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Kimai2APIDocsTestsUser.CreateActivityUsingPostWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>Kimai2APIDocsTestsUser.cs</DependentUpon>
+    </None>
+    <None Update="Kimai2APIDocsTestsUser.CreateActivityUsingPostWithHttpMessagesAsync_WithOnlyNameAndDesc_ReturnsNewActivity.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>Kimai2APIDocsTestsUser.cs</DependentUpon>
+    </None>
+    <None Update="Kimai2APIDocsTestsUser.GetActivityByIdUsingGetWithHttpMessagesAsync_GetById_ReturnsOneActivity.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>Kimai2APIDocsTestsUser.cs</DependentUpon>
+    </None>
+    <None Update="Kimai2APIDocsTestsUser.ListActivitiesUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>Kimai2APIDocsTestsUser.cs</DependentUpon>
+    </None>
+    <None Update="Kimai2APIDocsTestsUser.ListActivitiesUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>Kimai2APIDocsTestsUser.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+
 </Project>

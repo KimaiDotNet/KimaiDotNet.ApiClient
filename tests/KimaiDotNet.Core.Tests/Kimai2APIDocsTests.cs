@@ -107,11 +107,11 @@ namespace MarkZither.KimaiDotNet.Core.Tests
         }
 
         [Fact]
-        public async Task CreateActivityUsingPostWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior()
+        public async Task CreateActivityUsingPostWithHttpMessagesAsync_WithOnlyNameAndDesc_ReturnsNewActivity()
         {
             // Arrange
             var kimai2APIDocs = this.CreateKimai2APIDocs();
-            ActivityEditForm body = null;
+            ActivityEditForm body = new ActivityEditForm("TestActivity", "MarkTest");
             Dictionary<string, List<string>> customHeaders = null;
             CancellationToken cancellationToken = default(global::System.Threading.CancellationToken);
 
@@ -122,15 +122,16 @@ namespace MarkZither.KimaiDotNet.Core.Tests
                 cancellationToken);
 
             // Assert
-            Assert.True(false);
+            Assert.True(result.Response.IsSuccessStatusCode);
+            await Verifier.Verify(result.Body);
         }
 
         [Fact]
-        public async Task GetActivityByIdUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior()
+        public async Task GetActivityByIdUsingGetWithHttpMessagesAsync_GetById_ReturnsOneActivity()
         {
             // Arrange
             var kimai2APIDocs = this.CreateKimai2APIDocs();
-            int id = 0;
+            int id = 862;
             Dictionary<string, List<string>> customHeaders = null;
             CancellationToken cancellationToken = default(global::System.Threading.CancellationToken);
 
@@ -141,7 +142,8 @@ namespace MarkZither.KimaiDotNet.Core.Tests
                 cancellationToken);
 
             // Assert
-            Assert.True(false);
+            Assert.True(result.Response.IsSuccessStatusCode);
+            await Verifier.Verify(result.Body);
         }
 
         [Fact]
@@ -1222,107 +1224,6 @@ namespace MarkZither.KimaiDotNet.Core.Tests
 
             // Act
             var result = await kimai2APIDocs.DeleteTimesheetRecordUsingDeleteWithHttpMessagesAsync(
-                id,
-                customHeaders,
-                cancellationToken);
-
-            // Assert
-            Assert.True(false);
-        }
-
-        [Fact]
-        public async Task GetCurrentUserUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior()
-        {
-            // Arrange
-            var kimai2APIDocs = this.CreateKimai2APIDocs();
-            Dictionary<string, List<string>> customHeaders = null;
-            CancellationToken cancellationToken = default(global::System.Threading.CancellationToken);
-
-            // Act
-            var result = await kimai2APIDocs.GetCurrentUserUsingGetWithHttpMessagesAsync(
-                customHeaders,
-                cancellationToken);
-
-            // Assert
-            Assert.True(false);
-        }
-
-        [Fact]
-        public async Task ListUsersUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior()
-        {
-            // Arrange
-            var kimai2APIDocs = this.CreateKimai2APIDocs();
-            string visible = null;
-            string orderBy = null;
-            string order = null;
-            string term = null;
-            Dictionary<string, List<string>> customHeaders = null;
-            CancellationToken cancellationToken = default(global::System.Threading.CancellationToken);
-
-            // Act
-            var result = await kimai2APIDocs.ListUsersUsingGetWithHttpMessagesAsync(
-                visible,
-                orderBy,
-                order,
-                term,
-                customHeaders,
-                cancellationToken);
-
-            // Assert
-            Assert.True(false);
-        }
-
-        [Fact]
-        public async Task CreateUserUsingPostWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior()
-        {
-            // Arrange
-            var kimai2APIDocs = this.CreateKimai2APIDocs();
-            UserCreateForm body = null;
-            Dictionary<string, List<string>> customHeaders = null;
-            CancellationToken cancellationToken = default(global::System.Threading.CancellationToken);
-
-            // Act
-            var result = await kimai2APIDocs.CreateUserUsingPostWithHttpMessagesAsync(
-                body,
-                customHeaders,
-                cancellationToken);
-
-            // Assert
-            Assert.True(false);
-        }
-
-        [Fact]
-        public async Task GetUserByIdUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior()
-        {
-            // Arrange
-            var kimai2APIDocs = this.CreateKimai2APIDocs();
-            int id = 0;
-            Dictionary<string, List<string>> customHeaders = null;
-            CancellationToken cancellationToken = default(global::System.Threading.CancellationToken);
-
-            // Act
-            var result = await kimai2APIDocs.GetUserByIdUsingGetWithHttpMessagesAsync(
-                id,
-                customHeaders,
-                cancellationToken);
-
-            // Assert
-            Assert.True(false);
-        }
-
-        [Fact]
-        public async Task UpdateUserUsingPatchWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior()
-        {
-            // Arrange
-            var kimai2APIDocs = this.CreateKimai2APIDocs();
-            UserEditForm body = null;
-            int id = 0;
-            Dictionary<string, List<string>> customHeaders = null;
-            CancellationToken cancellationToken = default(global::System.Threading.CancellationToken);
-
-            // Act
-            var result = await kimai2APIDocs.UpdateUserUsingPatchWithHttpMessagesAsync(
-                body,
                 id,
                 customHeaders,
                 cancellationToken);
