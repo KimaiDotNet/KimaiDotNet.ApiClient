@@ -31,6 +31,9 @@ using static Nuke.Common.Tools.ReportGenerator.ReportGeneratorTasks;
 
 [CheckBuildProjectConfigurations]
 [ShutdownDotNetAfterServerBuild]
+[AzurePipelines(
+    AzurePipelinesImage.WindowsLatest,
+    InvokedTargets = new[] { nameof(Test) })]
 [GitHubActions(
     "dotnet-core",
     GitHubActionsImage.WindowsLatest,
@@ -136,8 +139,7 @@ partial class Build : NukeBuild
                     .CombineWith(TestProjects, (_, v) => _
                         .SetProjectFile(v)
                         .SetLogger($"trx;LogFileName={v.Name}.trx")
-                        .When(InvokedTargets.Contains(Coverage) || IsServerBuild, _ => _
-                            .SetCoverletOutput(TestResultDirectory / $"{v.Name}.xml"))));
+                        .SetCoverletOutput(TestResultDirectory / $"{v.Name}.xml")));
 
                 TestResultDirectory.GlobFiles("*.trx").ForEach(x =>
                     AzurePipelines?.PublishTestResults(

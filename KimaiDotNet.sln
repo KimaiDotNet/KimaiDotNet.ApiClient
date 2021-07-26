@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		CHANGELOG.md = CHANGELOG.md
+		global.json = global.json
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -89,7 +90,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A92C0157
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkZither.KimaiDotNet.ExcelAddin", "src\MarkZither.KimaiDotNet.ExcelAddin\MarkZither.KimaiDotNet.ExcelAddin.csproj", "{1ADD34B4-4785-428C-BBB7-68A476542DFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkZither.KimaiDotNet.ExcelAddin.Tests", "tests\MarkZither.KimaiDotNet.ExcelAddin.Tests\MarkZither.KimaiDotNet.ExcelAddin.Tests.csproj", "{E3ED1437-227F-4A97-B76E-0653B0AEFC10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkZither.KimaiDotNet.ExcelAddin.Tests", "tests\MarkZither.KimaiDotNet.ExcelAddin.Tests\MarkZither.KimaiDotNet.ExcelAddin.Tests.csproj", "{E3ED1437-227F-4A97-B76E-0653B0AEFC10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
