@@ -116,7 +116,7 @@ partial class Build : NukeBuild
 
     [Partition(2)] readonly Partition TestPartition;
     AbsolutePath TestResultDirectory => OutputDirectory / "test-results";
-    IEnumerable<Project> TestProjects => TestPartition.GetCurrent(Solution.GetProjects("*.Tests"));
+    IEnumerable<Project> TestProjects => TestPartition.GetCurrent(Solution.GetProjects("*.Core.Tests"));
     Target Test => _ => _
             .DependsOn(Compile)
             .Produces(TestResultDirectory / "*.trx")
