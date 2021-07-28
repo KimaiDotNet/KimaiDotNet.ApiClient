@@ -1,0 +1,4924 @@
+﻿[
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_1,
+    name: aggregate customized platforms,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_2,
+    name: aggregate extensible content,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_3,
+    name: aggregate integrated e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_4,
+    name: aggregate killer infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Polarised interactive superstructure,
+    project: 73,
+    id: Id_5,
+    name: aggregate mission-critical users,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_6,
+    name: aggregate proactive niches,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_7,
+    name: aggregate real-time deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_8,
+    name: aggregate revolutionary niches,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_9,
+    name: aggregate sexy synergies,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_10,
+    name: architect dot-com portals,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_11,
+    name: architect dynamic systems,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected disintermediate pricingstructure,
+    project: 35,
+    id: Id_12,
+    name: architect global methodologies,
+    visible: true
+  },
+  {
+    id: Id_13,
+    name: architect holistic schemas,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected well-modulated matrix,
+    project: 39,
+    id: Id_14,
+    name: architect open-source action-items,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_15,
+    name: architect open-source channels,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_16,
+    name: architect open-source deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_17,
+    name: architect proactive supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_18,
+    name: architect scalable web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_19,
+    name: architect seamless systems,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_20,
+    name: architect value-added e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_21,
+    name: architect wireless metrics,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_22,
+    name: benchmark B2B channels,
+    visible: true
+  },
+  {
+    parentTitle: Polarised interactive superstructure,
+    project: 73,
+    id: Id_23,
+    name: benchmark extensible architectures,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_24,
+    name: benchmark front-end infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_25,
+    name: benchmark killer schemas,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_26,
+    name: benchmark magnetic infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_27,
+    name: benchmark seamless channels,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_28,
+    name: benchmark sexy technologies,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected disintermediate pricingstructure,
+    project: 35,
+    id: Id_29,
+    name: benchmark web-enabled models,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_30,
+    name: brand 24/365 convergence,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_31,
+    name: brand 24/365 deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_32,
+    name: brand e-business e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_33,
+    name: brand efficient paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_34,
+    name: brand global channels,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_35,
+    name: brand holistic systems,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_36,
+    name: brand integrated metrics,
+    visible: true
+  },
+  {
+    parentTitle: Profit-focused zerotolerance pricingstructure,
+    project: 92,
+    id: Id_37,
+    name: brand one-to-one communities,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_38,
+    name: brand robust infomediaries,
+    visible: true
+  },
+  {
+    id: Id_39,
+    name: brand seamless relationships,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_40,
+    name: cultivate 24/365 mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_41,
+    name: cultivate B2B action-items,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_42,
+    name: cultivate B2C communities,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_43,
+    name: cultivate back-end networks,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_44,
+    name: cultivate best-of-breed interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_45,
+    name: cultivate bleeding-edge networks,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_46,
+    name: cultivate bricks-and-clicks eyeballs,
+    visible: true
+  },
+  {
+    id: Id_47,
+    name: cultivate clicks-and-mortar users,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_48,
+    name: cultivate collaborative eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Right-sized regional matrices,
+    project: 15,
+    id: Id_49,
+    name: cultivate dynamic e-services,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_50,
+    name: cultivate end-to-end action-items,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_51,
+    name: cultivate enterprise eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_52,
+    name: cultivate leading-edge convergence,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_53,
+    name: cultivate mission-critical convergence,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_54,
+    name: cultivate plug-and-play solutions,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_55,
+    name: cultivate revolutionary platforms,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_56,
+    name: cultivate sexy vortals,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_57,
+    name: cultivate virtual paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_58,
+    name: deliver dot-com applications,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_59,
+    name: deliver dot-com infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_60,
+    name: deliver efficient e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Object-based background standardization,
+    project: 23,
+    id: Id_61,
+    name: deliver efficient eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_62,
+    name: deliver killer e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_63,
+    name: deliver plug-and-play portals,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_64,
+    name: deliver scalable portals,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_65,
+    name: deliver transparent interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_66,
+    name: deploy collaborative partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_67,
+    name: deploy cutting-edge channels,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_68,
+    name: deploy dynamic convergence,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_69,
+    name: deploy holistic e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_70,
+    name: deploy magnetic relationships,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_71,
+    name: deploy real-time markets,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_72,
+    name: deploy synergistic markets,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_73,
+    name: deploy viral methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_74,
+    name: disintermediate B2C paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Synergistic bottom-line groupware,
+    project: 63,
+    id: Id_75,
+    name: disintermediate back-end channels,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_76,
+    name: disintermediate holistic bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_77,
+    name: disintermediate integrated systems,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_78,
+    name: disintermediate killer technologies,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_79,
+    name: disintermediate one-to-one solutions,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_80,
+    name: disintermediate proactive e-services,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_81,
+    name: disintermediate scalable deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Advanced directional customerloyalty,
+    project: 49,
+    id: Id_82,
+    name: disintermediate seamless portals,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_83,
+    name: disintermediate user-centric convergence,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_84,
+    name: disintermediate virtual web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_85,
+    name: disintermediate visionary synergies,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_86,
+    name: disintermediate web-enabled paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_87,
+    name: disintermediate wireless paradigms,
+    visible: true
+  },
+  {
+    id: Id_88,
+    name: drive B2B interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Automated coherent capacity,
+    project: 57,
+    id: Id_89,
+    name: drive B2B platforms,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_90,
+    name: drive B2C functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_91,
+    name: drive innovative webservices,
+    visible: true
+  },
+  {
+    parentTitle: Cross-platform impactful conglomeration,
+    project: 76,
+    id: Id_92,
+    name: drive next-generation relationships,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_93,
+    name: drive open-source channels,
+    visible: true
+  },
+  {
+    parentTitle: Advanced directional customerloyalty,
+    project: 49,
+    id: Id_94,
+    name: drive world-class niches,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_95,
+    name: e-enable 24/7 metrics,
+    visible: true
+  },
+  {
+    parentTitle: Cross-platform impactful conglomeration,
+    project: 76,
+    id: Id_96,
+    name: e-enable 24/7 users,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_97,
+    name: e-enable 24/7 users,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_98,
+    name: e-enable B2B networks,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_99,
+    name: e-enable back-end relationships,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_100,
+    name: e-enable bleeding-edge metrics,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_101,
+    name: e-enable customized e-services,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_102,
+    name: e-enable efficient models,
+    visible: true
+  },
+  {
+    parentTitle: Expanded bifurcated database,
+    project: 71,
+    id: Id_103,
+    name: e-enable extensible ROI,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_104,
+    name: e-enable extensible synergies,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_105,
+    name: e-enable front-end experiences,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_106,
+    name: e-enable global initiatives,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_107,
+    name: e-enable holistic infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_108,
+    name: e-enable innovative mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_109,
+    name: e-enable one-to-one infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_110,
+    name: e-enable open-source convergence,
+    visible: true
+  },
+  {
+    parentTitle: Up-sized bottom-line time-frame,
+    project: 55,
+    id: Id_111,
+    name: e-enable out-of-the-box partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_112,
+    name: e-enable robust e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_113,
+    name: embrace 24/365 infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_114,
+    name: embrace B2C synergies,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_115,
+    name: embrace compelling schemas,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_116,
+    name: embrace cutting-edge networks,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_117,
+    name: embrace e-business partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_118,
+    name: embrace enterprise action-items,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_119,
+    name: embrace extensible e-services,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_120,
+    name: embrace front-end e-services,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_121,
+    name: embrace impactful convergence,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_122,
+    name: embrace plug-and-play web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_123,
+    name: embrace rich e-services,
+    visible: true
+  },
+  {
+    parentTitle: Synergistic bottom-line groupware,
+    project: 63,
+    id: Id_124,
+    name: embrace sexy metrics,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_125,
+    name: embrace sticky vortals,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_126,
+    name: embrace ubiquitous functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_127,
+    name: embrace value-added models,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_128,
+    name: empower back-end relationships,
+    visible: true
+  },
+  {
+    parentTitle: Polarised interactive superstructure,
+    project: 73,
+    id: Id_129,
+    name: empower cross-platform partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_130,
+    name: empower e-business schemas,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_131,
+    name: empower efficient niches,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_132,
+    name: empower interactive channels,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_133,
+    name: empower mission-critical e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_134,
+    name: empower proactive architectures,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_135,
+    name: empower seamless eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_136,
+    name: empower viral eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_137,
+    name: empower visionary convergence,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_138,
+    name: empower visionary infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_139,
+    name: enable B2B relationships,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_140,
+    name: enable back-end applications,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_141,
+    name: enable granular infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_142,
+    name: enable impactful initiatives,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_143,
+    name: enable interactive systems,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_144,
+    name: enable out-of-the-box e-business,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_145,
+    name: enable robust networks,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_146,
+    name: enable strategic metrics,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_147,
+    name: enable transparent infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_148,
+    name: engage best-of-breed infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_149,
+    name: engage cross-platform markets,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_150,
+    name: engage enterprise partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_151,
+    name: engage interactive technologies,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_152,
+    name: engage seamless methodologies,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_153,
+    name: engage strategic synergies,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_154,
+    name: engage synergistic portals,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_155,
+    name: engage vertical e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_156,
+    name: engage visionary architectures,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_157,
+    name: engage web-enabled synergies,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_158,
+    name: engineer 24/7 markets,
+    visible: true
+  },
+  {
+    parentTitle: Right-sized regional matrices,
+    project: 15,
+    id: Id_159,
+    name: engineer bleeding-edge supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_160,
+    name: engineer collaborative paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_161,
+    name: engineer cross-media synergies,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_162,
+    name: engineer distributed platforms,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_163,
+    name: engineer efficient metrics,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_164,
+    name: engineer efficient models,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_165,
+    name: engineer frictionless functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_166,
+    name: engineer leading-edge ROI,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_167,
+    name: engineer magnetic networks,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_168,
+    name: engineer magnetic synergies,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_169,
+    name: engineer synergistic channels,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_170,
+    name: engineer synergistic e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_171,
+    name: engineer synergistic users,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_172,
+    name: enhance B2B models,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_173,
+    name: enhance best-of-breed convergence,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_174,
+    name: enhance collaborative models,
+    visible: true
+  },
+  {
+    parentTitle: Expanded bifurcated database,
+    project: 71,
+    id: Id_175,
+    name: enhance efficient technologies,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_176,
+    name: enhance enterprise channels,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_177,
+    name: enhance extensible e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Team-oriented systemic data-warehouse,
+    project: 27,
+    id: Id_178,
+    name: enhance holistic systems,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_179,
+    name: enhance impactful channels,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_180,
+    name: enhance interactive applications,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_181,
+    name: enhance killer relationships,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_182,
+    name: enhance sexy convergence,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_183,
+    name: enhance transparent systems,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_184,
+    name: enhance transparent users,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_185,
+    name: enhance ubiquitous infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_186,
+    name: enhance viral mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_187,
+    name: enhance web-enabled schemas,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_188,
+    name: envisioneer best-of-breed communities,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_189,
+    name: envisioneer holistic e-markets,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_190,
+    name: envisioneer real-time supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_191,
+    name: envisioneer rich action-items,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_192,
+    name: envisioneer wireless eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Cross-platform impactful conglomeration,
+    project: 76,
+    id: Id_193,
+    name: evolve 24/365 web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_194,
+    name: evolve B2B e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_195,
+    name: evolve collaborative markets,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_196,
+    name: evolve cross-media technologies,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_197,
+    name: evolve extensible synergies,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_198,
+    name: evolve impactful webservices,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_199,
+    name: evolve mission-critical networks,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_200,
+    name: evolve plug-and-play technologies,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_201,
+    name: evolve turn-key convergence,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_202,
+    name: expedite clicks-and-mortar methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_203,
+    name: expedite distributed portals,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_204,
+    name: expedite end-to-end functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_205,
+    name: expedite extensible supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_206,
+    name: expedite global e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_207,
+    name: expedite next-generation e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_208,
+    name: expedite revolutionary deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_209,
+    name: expedite revolutionary niches,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_210,
+    name: expedite sexy experiences,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_211,
+    name: expedite strategic bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_212,
+    name: expedite synergistic functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_213,
+    name: expedite user-centric infomediaries,
+    visible: true
+  },
+  {
+    id: Id_214,
+    name: expedite user-centric web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_215,
+    name: exploit back-end networks,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_216,
+    name: exploit best-of-breed platforms,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_217,
+    name: exploit holistic channels,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_218,
+    name: exploit innovative ROI,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_219,
+    name: exploit integrated methodologies,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_220,
+    name: exploit one-to-one solutions,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_221,
+    name: exploit proactive interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_222,
+    name: exploit revolutionary portals,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_223,
+    name: extend B2B applications,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_224,
+    name: extend back-end synergies,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_225,
+    name: extend bricks-and-clicks supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_226,
+    name: extend customized synergies,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_227,
+    name: extend dynamic ROI,
+    visible: true
+  },
+  {
+    parentTitle: Profit-focused zerotolerance pricingstructure,
+    project: 92,
+    id: Id_228,
+    name: extend holistic models,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_229,
+    name: extend virtual channels,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_230,
+    name: extend wireless niches,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_231,
+    name: facilitate 24/365 applications,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_232,
+    name: facilitate collaborative models,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_233,
+    name: facilitate e-business infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_234,
+    name: facilitate extensible channels,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected disintermediate pricingstructure,
+    project: 35,
+    id: Id_235,
+    name: facilitate granular e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_236,
+    name: facilitate innovative initiatives,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_237,
+    name: facilitate leading-edge solutions,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_238,
+    name: facilitate mission-critical webservices,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_239,
+    name: facilitate real-time e-services,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_240,
+    name: facilitate robust relationships,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_241,
+    name: facilitate seamless infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_242,
+    name: facilitate visionary users,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_243,
+    name: generate 24/365 solutions,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_244,
+    name: generate B2C channels,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_245,
+    name: generate bleeding-edge markets,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_246,
+    name: generate collaborative technologies,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected well-modulated matrix,
+    project: 39,
+    id: Id_247,
+    name: generate cross-media mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Expanded bifurcated database,
+    project: 71,
+    id: Id_248,
+    name: generate customized bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_249,
+    name: generate e-business web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_250,
+    name: generate enterprise e-services,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_251,
+    name: generate enterprise mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_252,
+    name: generate frictionless deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_253,
+    name: generate frictionless technologies,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_254,
+    name: generate holistic schemas,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_255,
+    name: generate integrated channels,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_256,
+    name: generate interactive eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_257,
+    name: generate intuitive technologies,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_258,
+    name: generate intuitive webservices,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_259,
+    name: generate open-source experiences,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_260,
+    name: generate plug-and-play systems,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_261,
+    name: generate robust communities,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_262,
+    name: generate scalable infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_263,
+    name: generate synergistic eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_264,
+    name: generate synergistic models,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_265,
+    name: generate turn-key methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_266,
+    name: generate value-added e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_267,
+    name: grow B2B portals,
+    visible: true
+  },
+  {
+    parentTitle: Sharable object-oriented workforce,
+    project: 74,
+    id: Id_268,
+    name: grow cross-platform metrics,
+    visible: true
+  },
+  {
+    parentTitle: Profit-focused zerotolerance pricingstructure,
+    project: 92,
+    id: Id_269,
+    name: grow customized methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_270,
+    name: grow efficient users,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_271,
+    name: grow holistic e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Expanded bifurcated database,
+    project: 71,
+    id: Id_272,
+    name: grow interactive functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_273,
+    name: grow next-generation content,
+    visible: true
+  },
+  {
+    id: Id_274,
+    name: grow one-to-one relationships,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_275,
+    name: grow strategic ROI,
+    visible: true
+  },
+  {
+    parentTitle: Team-oriented systemic data-warehouse,
+    project: 27,
+    id: Id_276,
+    name: grow synergistic synergies,
+    visible: true
+  },
+  {
+    parentTitle: Automated coherent capacity,
+    project: 57,
+    id: Id_277,
+    name: grow virtual relationships,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_278,
+    name: grow visionary schemas,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_279,
+    name: harness 24/7 architectures,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_280,
+    name: harness best-of-breed architectures,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_281,
+    name: harness bleeding-edge infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Distributed discrete conglomeration,
+    project: 69,
+    id: Id_282,
+    name: harness cross-platform content,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_283,
+    name: harness cross-platform infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_284,
+    name: harness dot-com functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_285,
+    name: harness e-business interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_286,
+    name: harness e-business schemas,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_287,
+    name: harness innovative mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected systemic knowledgebase,
+    project: 18,
+    id: Id_288,
+    name: harness intuitive markets,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_289,
+    name: harness robust markets,
+    visible: true
+  },
+  {
+    parentTitle: Expanded bifurcated database,
+    project: 71,
+    id: Id_290,
+    name: harness robust networks,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_291,
+    name: harness seamless synergies,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_292,
+    name: harness transparent eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_293,
+    name: harness turn-key vortals,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected systemic knowledgebase,
+    project: 18,
+    id: Id_294,
+    name: harness ubiquitous niches,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_295,
+    name: harness value-added deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_296,
+    name: implement bricks-and-clicks markets,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_297,
+    name: implement cross-platform relationships,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_298,
+    name: implement cutting-edge ROI,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_299,
+    name: implement dot-com deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_300,
+    name: implement efficient systems,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_301,
+    name: implement enterprise supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_302,
+    name: implement global convergence,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_303,
+    name: implement magnetic infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_304,
+    name: implement strategic platforms,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_305,
+    name: implement value-added niches,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_306,
+    name: implement web-enabled vortals,
+    visible: true
+  },
+  {
+    parentTitle: Cross-platform impactful conglomeration,
+    project: 76,
+    id: Id_307,
+    name: implement world-class paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_308,
+    name: incentivize B2C ROI,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_309,
+    name: incentivize back-end models,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration capacity,
+    project: 16,
+    id: Id_310,
+    name: incentivize collaborative networks,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_311,
+    name: incentivize cross-media supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_312,
+    name: incentivize enterprise methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_313,
+    name: incentivize front-end ROI,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_314,
+    name: incentivize granular platforms,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_315,
+    name: incentivize rich users,
+    visible: true
+  },
+  {
+    parentTitle: Synergistic bottom-line groupware,
+    project: 63,
+    id: Id_316,
+    name: incentivize transparent e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_317,
+    name: incentivize user-centric communities,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_318,
+    name: incubate B2C models,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_319,
+    name: incubate bleeding-edge content,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_320,
+    name: incubate compelling bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_321,
+    name: incubate cutting-edge supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_322,
+    name: incubate dynamic schemas,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_323,
+    name: incubate efficient architectures,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_324,
+    name: incubate holistic content,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_325,
+    name: incubate real-time functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_326,
+    name: innovate bricks-and-clicks mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_327,
+    name: innovate distributed supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_328,
+    name: innovate e-business action-items,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected systemic knowledgebase,
+    project: 18,
+    id: Id_329,
+    name: innovate e-business bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_330,
+    name: innovate enterprise experiences,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_331,
+    name: innovate holistic e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_332,
+    name: innovate holistic models,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_333,
+    name: innovate impactful deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_334,
+    name: innovate impactful supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_335,
+    name: innovate next-generation vortals,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_336,
+    name: innovate proactive models,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_337,
+    name: innovate seamless web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_338,
+    name: innovate user-centric supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_339,
+    name: integrate back-end eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_340,
+    name: integrate collaborative vortals,
+    visible: true
+  },
+  {
+    parentTitle: Distributed discrete conglomeration,
+    project: 69,
+    id: Id_341,
+    name: integrate cross-media paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_342,
+    name: integrate front-end users,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_343,
+    name: integrate innovative networks,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_344,
+    name: integrate intuitive infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_345,
+    name: integrate out-of-the-box bandwidth,
+    visible: true
+  },
+  {
+    id: Id_346,
+    name: integrate revolutionary communities,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_347,
+    name: integrate revolutionary schemas,
+    visible: true
+  },
+  {
+    parentTitle: Facetoface holistic intranet,
+    project: 26,
+    id: Id_348,
+    name: integrate sexy synergies,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_349,
+    name: integrate turn-key functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_350,
+    name: integrate ubiquitous functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_351,
+    name: integrate wireless functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Polarised interactive superstructure,
+    project: 73,
+    id: Id_352,
+    name: iterate back-end relationships,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_353,
+    name: iterate back-end relationships,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_354,
+    name: iterate best-of-breed paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_355,
+    name: iterate best-of-breed users,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_356,
+    name: iterate bleeding-edge webservices,
+    visible: true
+  },
+  {
+    id: Id_357,
+    name: iterate dynamic interfaces,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_358,
+    name: iterate innovative markets,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_359,
+    name: iterate interactive e-business,
+    visible: true
+  },
+  {
+    parentTitle: Up-sized bottom-line time-frame,
+    project: 55,
+    id: Id_360,
+    name: iterate leading-edge infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected well-modulated matrix,
+    project: 39,
+    id: Id_361,
+    name: iterate plug-and-play eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_362,
+    name: iterate revolutionary paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_363,
+    name: iterate ubiquitous ROI,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_364,
+    name: iterate virtual supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_365,
+    name: iterate visionary architectures,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_366,
+    name: leverage 24/365 networks,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_367,
+    name: leverage 24/7 bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_368,
+    name: leverage efficient markets,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_369,
+    name: leverage extensible e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_370,
+    name: leverage front-end communities,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_371,
+    name: leverage front-end platforms,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_372,
+    name: leverage global channels,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_373,
+    name: leverage granular methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Profit-focused zerotolerance pricingstructure,
+    project: 92,
+    id: Id_374,
+    name: leverage intuitive convergence,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal demand-driven artificialintelligence,
+    project: 6,
+    id: Id_375,
+    name: leverage plug-and-play applications,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_376,
+    name: leverage revolutionary schemas,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_377,
+    name: leverage virtual partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_378,
+    name: leverage wireless e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Automated coherent capacity,
+    project: 57,
+    id: Id_379,
+    name: matrix 24/7 eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_380,
+    name: matrix back-end functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_381,
+    name: matrix compelling solutions,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_382,
+    name: matrix distributed e-services,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_383,
+    name: matrix distributed vortals,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_384,
+    name: matrix one-to-one action-items,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_385,
+    name: matrix one-to-one e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_386,
+    name: matrix ubiquitous mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_387,
+    name: matrix value-added applications,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_388,
+    name: matrix vertical schemas,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_389,
+    name: matrix world-class users,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_390,
+    name: maximize 24/7 systems,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_391,
+    name: maximize end-to-end e-services,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_392,
+    name: maximize end-to-end portals,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_393,
+    name: maximize frictionless synergies,
+    visible: true
+  },
+  {
+    parentTitle: Advanced directional customerloyalty,
+    project: 49,
+    id: Id_394,
+    name: maximize granular methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_395,
+    name: maximize holistic e-business,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_396,
+    name: maximize innovative applications,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_397,
+    name: maximize intuitive applications,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_398,
+    name: maximize next-generation deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_399,
+    name: maximize open-source portals,
+    visible: true
+  },
+  {
+    parentTitle: Cross-platform impactful conglomeration,
+    project: 76,
+    id: Id_400,
+    name: maximize real-time deliverables,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_401,
+    name: maximize sexy eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_402,
+    name: maximize transparent technologies,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_403,
+    name: maximize viral interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_404,
+    name: mesh cross-platform e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_405,
+    name: mesh cross-platform markets,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_406,
+    name: mesh global ROI,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_407,
+    name: mesh mission-critical e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_408,
+    name: mesh rich bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_409,
+    name: mesh robust experiences,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected systemic knowledgebase,
+    project: 18,
+    id: Id_410,
+    name: mesh sticky relationships,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_411,
+    name: mesh value-added niches,
+    visible: true
+  },
+  {
+    parentTitle: Diverse non-volatile encoding,
+    project: 53,
+    id: Id_412,
+    name: mesh web-enabled bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_413,
+    name: mesh web-enabled e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_414,
+    name: monetize B2C vortals,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_415,
+    name: monetize bricks-and-clicks content,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_416,
+    name: monetize distributed platforms,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_417,
+    name: monetize global architectures,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_418,
+    name: monetize global eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_419,
+    name: monetize holistic paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_420,
+    name: monetize innovative initiatives,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_421,
+    name: monetize innovative relationships,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_422,
+    name: monetize integrated infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_423,
+    name: monetize intuitive infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_424,
+    name: monetize mission-critical portals,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_425,
+    name: monetize user-centric technologies,
+    visible: true
+  },
+  {
+    parentTitle: Synergistic bottom-line groupware,
+    project: 63,
+    id: Id_426,
+    name: morph distributed webservices,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_427,
+    name: morph front-end e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_428,
+    name: morph front-end paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected disintermediate pricingstructure,
+    project: 35,
+    id: Id_429,
+    name: morph one-to-one convergence,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_430,
+    name: morph one-to-one eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_431,
+    name: morph out-of-the-box experiences,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_432,
+    name: morph real-time infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_433,
+    name: morph real-time paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_434,
+    name: morph real-time relationships,
+    visible: true
+  },
+  {
+    parentTitle: Polarised directional emulation,
+    project: 32,
+    id: Id_435,
+    name: morph sticky functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Innovative zeroadministration complexity,
+    project: 91,
+    id: Id_436,
+    name: morph sticky users,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_437,
+    name: morph synergistic experiences,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_438,
+    name: morph user-centric eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_439,
+    name: morph viral vortals,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_440,
+    name: optimize bleeding-edge communities,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_441,
+    name: optimize bricks-and-clicks solutions,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_442,
+    name: optimize granular mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_443,
+    name: optimize next-generation infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_444,
+    name: optimize synergistic e-services,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_445,
+    name: optimize ubiquitous interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_446,
+    name: optimize user-centric bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_447,
+    name: optimize web-enabled paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_448,
+    name: orchestrate 24/365 e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_449,
+    name: orchestrate clicks-and-mortar applications,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_450,
+    name: orchestrate dynamic deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_451,
+    name: orchestrate efficient solutions,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_452,
+    name: orchestrate front-end paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_453,
+    name: orchestrate innovative bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_454,
+    name: orchestrate revolutionary supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_455,
+    name: orchestrate seamless convergence,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_456,
+    name: orchestrate web-enabled content,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_457,
+    name: orchestrate world-class partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_458,
+    name: productize collaborative supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_459,
+    name: productize customized partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_460,
+    name: productize proactive metrics,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_461,
+    name: productize real-time synergies,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_462,
+    name: productize seamless web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_463,
+    name: productize sexy synergies,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_464,
+    name: productize synergistic e-services,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_465,
+    name: productize turn-key communities,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_466,
+    name: productize viral schemas,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_467,
+    name: recontextualize 24/365 e-business,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_468,
+    name: recontextualize efficient e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_469,
+    name: recontextualize global systems,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_470,
+    name: recontextualize innovative mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Devolved cohesive initiative,
+    project: 51,
+    id: Id_471,
+    name: recontextualize interactive portals,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_472,
+    name: recontextualize next-generation convergence,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_473,
+    name: recontextualize rich convergence,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_474,
+    name: recontextualize robust systems,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_475,
+    name: recontextualize scalable models,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_476,
+    name: recontextualize strategic platforms,
+    visible: true
+  },
+  {
+    parentTitle: Profit-focused zerotolerance pricingstructure,
+    project: 92,
+    id: Id_477,
+    name: recontextualize visionary e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected well-modulated matrix,
+    project: 39,
+    id: Id_478,
+    name: recontextualize web-enabled architectures,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_479,
+    name: recontextualize wireless technologies,
+    visible: true
+  },
+  {
+    parentTitle: Polarised interactive superstructure,
+    project: 73,
+    id: Id_480,
+    name: redefine 24/365 paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_481,
+    name: redefine compelling bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_482,
+    name: redefine dot-com e-services,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_483,
+    name: redefine frictionless technologies,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_484,
+    name: redefine holistic networks,
+    visible: true
+  },
+  {
+    parentTitle: Synergistic bottom-line groupware,
+    project: 63,
+    id: Id_485,
+    name: redefine intuitive channels,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_486,
+    name: redefine killer technologies,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_487,
+    name: redefine scalable interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_488,
+    name: redefine seamless paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_489,
+    name: reintermediate back-end users,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_490,
+    name: reintermediate end-to-end eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_491,
+    name: reintermediate innovative models,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_492,
+    name: reintermediate proactive action-items,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_493,
+    name: reintermediate scalable networks,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_494,
+    name: reintermediate value-added users,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_495,
+    name: reintermediate web-enabled e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_496,
+    name: reintermediate world-class interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_497,
+    name: reinvent B2C e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_498,
+    name: reinvent compelling infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_499,
+    name: reinvent cross-platform mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_500,
+    name: reinvent dynamic models,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_501,
+    name: reinvent e-business channels,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_502,
+    name: reinvent innovative e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_503,
+    name: reinvent integrated users,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected disintermediate pricingstructure,
+    project: 35,
+    id: Id_504,
+    name: reinvent leading-edge communities,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal maximized infrastructure,
+    project: 13,
+    id: Id_505,
+    name: reinvent next-generation e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_506,
+    name: reinvent sexy interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_507,
+    name: reinvent sticky interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_508,
+    name: reinvent viral e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_509,
+    name: reinvent world-class webservices,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration capacity,
+    project: 16,
+    id: Id_510,
+    name: repurpose bricks-and-clicks action-items,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_511,
+    name: repurpose bricks-and-clicks ROI,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_512,
+    name: repurpose customized e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_513,
+    name: repurpose customized interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Diverse non-volatile encoding,
+    project: 53,
+    id: Id_514,
+    name: repurpose enterprise content,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_515,
+    name: repurpose holistic initiatives,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_516,
+    name: repurpose mission-critical architectures,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_517,
+    name: repurpose one-to-one experiences,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_518,
+    name: repurpose out-of-the-box supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_519,
+    name: repurpose rich users,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_520,
+    name: repurpose scalable deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_521,
+    name: repurpose seamless metrics,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_522,
+    name: repurpose turn-key deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_523,
+    name: repurpose web-enabled deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_524,
+    name: repurpose world-class infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected well-modulated matrix,
+    project: 39,
+    id: Id_525,
+    name: revolutionize cutting-edge networks,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_526,
+    name: revolutionize front-end users,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_527,
+    name: revolutionize interactive web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_528,
+    name: revolutionize magnetic infrastructures,
+    visible: true
+  },
+  {
+    id: Id_529,
+    name: revolutionize mission-critical experiences,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_530,
+    name: revolutionize one-to-one bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_531,
+    name: revolutionize rich models,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_532,
+    name: revolutionize rich users,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_533,
+    name: revolutionize ubiquitous action-items,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_534,
+    name: revolutionize ubiquitous e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_535,
+    name: revolutionize virtual e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_536,
+    name: revolutionize web-enabled architectures,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_537,
+    name: scale compelling e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_538,
+    name: scale cutting-edge e-business,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_539,
+    name: scale holistic webservices,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_540,
+    name: scale integrated action-items,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_541,
+    name: scale magnetic supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_542,
+    name: scale next-generation portals,
+    visible: true
+  },
+  {
+    parentTitle: Synergistic object-oriented extranet,
+    project: 48,
+    id: Id_543,
+    name: scale open-source action-items,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_544,
+    name: scale open-source vortals,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_545,
+    name: scale vertical vortals,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_546,
+    name: seize 24/7 content,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_547,
+    name: seize B2B ROI,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_548,
+    name: seize best-of-breed interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_549,
+    name: seize bricks-and-clicks platforms,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_550,
+    name: seize cutting-edge convergence,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_551,
+    name: seize dot-com deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_552,
+    name: seize efficient mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_553,
+    name: seize front-end models,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected well-modulated matrix,
+    project: 39,
+    id: Id_554,
+    name: seize interactive eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_555,
+    name: seize killer e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_556,
+    name: seize killer metrics,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_557,
+    name: seize user-centric e-business,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_558,
+    name: seize virtual infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_559,
+    name: seize web-enabled interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_560,
+    name: seize web-enabled solutions,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_561,
+    name: strategize 24/7 channels,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_562,
+    name: strategize back-end bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_563,
+    name: strategize best-of-breed web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_564,
+    name: strategize clicks-and-mortar convergence,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_565,
+    name: strategize compelling e-markets,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_566,
+    name: strategize efficient mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_567,
+    name: strategize holistic deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_568,
+    name: strategize holistic technologies,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_569,
+    name: strategize integrated solutions,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_570,
+    name: strategize interactive eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Progressive homogeneous knowledgebase,
+    project: 42,
+    id: Id_571,
+    name: strategize intuitive deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_572,
+    name: strategize leading-edge e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_573,
+    name: strategize mission-critical e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Up-sized bottom-line time-frame,
+    project: 55,
+    id: Id_574,
+    name: strategize strategic solutions,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_575,
+    name: strategize ubiquitous architectures,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_576,
+    name: strategize viral web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_577,
+    name: strategize world-class markets,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_578,
+    name: streamline 24/7 e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_579,
+    name: streamline best-of-breed supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_580,
+    name: streamline cross-platform e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected disintermediate pricingstructure,
+    project: 35,
+    id: Id_581,
+    name: streamline distributed interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_582,
+    name: streamline end-to-end eyeballs,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_583,
+    name: streamline enterprise platforms,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_584,
+    name: streamline killer e-services,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_585,
+    name: streamline leading-edge experiences,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_586,
+    name: streamline leading-edge relationships,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_587,
+    name: streamline open-source users,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_588,
+    name: streamline real-time bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_589,
+    name: streamline transparent supply-chains,
+    visible: true
+  },
+  {
+    id: Id_590,
+    name: streamline turn-key webservices,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_591,
+    name: streamline user-centric infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Centralized dedicated systemengine,
+    project: 25,
+    id: Id_592,
+    name: streamline viral mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_593,
+    name: streamline virtual relationships,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral executive moratorium,
+    project: 28,
+    id: Id_594,
+    name: streamline virtual technologies,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_595,
+    name: syndicate B2B synergies,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_596,
+    name: syndicate clicks-and-mortar e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_597,
+    name: syndicate collaborative users,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_598,
+    name: syndicate cross-media vortals,
+    visible: true
+  },
+  {
+    parentTitle: User-centric explicit task-force,
+    project: 46,
+    id: Id_599,
+    name: syndicate dot-com initiatives,
+    visible: true
+  },
+  {
+    parentTitle: Object-based background standardization,
+    project: 23,
+    id: Id_600,
+    name: syndicate efficient infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_601,
+    name: syndicate impactful applications,
+    visible: true
+  },
+  {
+    parentTitle: Optimized hybrid productivity,
+    project: 90,
+    id: Id_602,
+    name: syndicate innovative convergence,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_603,
+    name: syndicate integrated functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Intuitive dynamic success,
+    project: 60,
+    id: Id_604,
+    name: syndicate real-time interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_605,
+    name: syndicate revolutionary users,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_606,
+    name: syndicate seamless vortals,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_607,
+    name: syndicate value-added e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_608,
+    name: syndicate visionary e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_609,
+    name: synergize 24/365 paradigms,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_610,
+    name: synergize B2B vortals,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_611,
+    name: synergize B2C relationships,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_612,
+    name: synergize back-end webservices,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_613,
+    name: synergize compelling bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_614,
+    name: synergize dot-com ROI,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_615,
+    name: synergize dot-com webservices,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_616,
+    name: synergize efficient infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Facetoface holistic intranet,
+    project: 26,
+    id: Id_617,
+    name: synergize frictionless interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_618,
+    name: synergize global interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_619,
+    name: synergize killer systems,
+    visible: true
+  },
+  {
+    parentTitle: Multi-lateral grid-enabled internetsolution,
+    project: 5,
+    id: Id_620,
+    name: synergize synergistic platforms,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_621,
+    name: synergize transparent networks,
+    visible: true
+  },
+  {
+    parentTitle: Object-based background standardization,
+    project: 23,
+    id: Id_622,
+    name: synergize transparent portals,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_623,
+    name: synergize world-class experiences,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_624,
+    name: synthesize 24/7 communities,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_625,
+    name: synthesize dynamic technologies,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_626,
+    name: synthesize e-business bandwidth,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive neutral data-warehouse,
+    project: 50,
+    id: Id_627,
+    name: synthesize integrated mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_628,
+    name: synthesize robust partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Configurable full-range knowledgeuser,
+    project: 34,
+    id: Id_629,
+    name: synthesize strategic deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_630,
+    name: synthesize ubiquitous ROI,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide national algorithm,
+    project: 62,
+    id: Id_631,
+    name: target 24/365 deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_632,
+    name: target collaborative web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_633,
+    name: target dot-com methodologies,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_634,
+    name: target end-to-end functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Cross-platform impactful conglomeration,
+    project: 76,
+    id: Id_635,
+    name: target impactful solutions,
+    visible: true
+  },
+  {
+    parentTitle: Diverse 3rdgeneration securedline,
+    project: 17,
+    id: Id_636,
+    name: target magnetic convergence,
+    visible: true
+  },
+  {
+    parentTitle: Sharable responsive archive,
+    project: 47,
+    id: Id_637,
+    name: target vertical partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_638,
+    name: transform dot-com channels,
+    visible: true
+  },
+  {
+    parentTitle: Automated coherent capacity,
+    project: 57,
+    id: Id_639,
+    name: transform efficient systems,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_640,
+    name: transform efficient users,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_641,
+    name: transform end-to-end supply-chains,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_642,
+    name: transform granular action-items,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_643,
+    name: transform holistic e-services,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_644,
+    name: transform interactive applications,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_645,
+    name: transform leading-edge vortals,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_646,
+    name: transform one-to-one infomediaries,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_647,
+    name: transform open-source interfaces,
+    visible: true
+  },
+  {
+    parentTitle: Pre-emptive scalable parallelism,
+    project: 61,
+    id: Id_648,
+    name: transform seamless users,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected well-modulated matrix,
+    project: 39,
+    id: Id_649,
+    name: transform strategic experiences,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_650,
+    name: transform synergistic schemas,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_651,
+    name: transform user-centric vortals,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_652,
+    name: transform value-added channels,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_653,
+    name: transition collaborative partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_654,
+    name: transition compelling webservices,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration capacity,
+    project: 16,
+    id: Id_655,
+    name: transition e-business content,
+    visible: true
+  },
+  {
+    parentTitle: Vision-oriented nextgeneration hub,
+    project: 30,
+    id: Id_656,
+    name: transition global portals,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_657,
+    name: transition global solutions,
+    visible: true
+  },
+  {
+    parentTitle: Horizontal content-based functionalities,
+    project: 19,
+    id: Id_658,
+    name: transition leading-edge portals,
+    visible: true
+  },
+  {
+    parentTitle: Enterprise-wide fresh-thinking knowledgebase,
+    project: 4,
+    id: Id_659,
+    name: transition next-generation schemas,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_660,
+    name: transition sexy content,
+    visible: true
+  },
+  {
+    parentTitle: Profound bifurcated productivity,
+    project: 38,
+    id: Id_661,
+    name: transition strategic technologies,
+    visible: true
+  },
+  {
+    parentTitle: Distributed discrete conglomeration,
+    project: 69,
+    id: Id_662,
+    name: transition transparent technologies,
+    visible: true
+  },
+  {
+    parentTitle: Enhanced 5thgeneration securedline,
+    project: 72,
+    id: Id_663,
+    name: transition viral mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Mandatory fresh-thinking groupware,
+    project: 40,
+    id: Id_664,
+    name: transition virtual solutions,
+    visible: true
+  },
+  {
+    parentTitle: Robust bottom-line encoding,
+    project: 12,
+    id: Id_665,
+    name: unleash 24/7 infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_666,
+    name: unleash 24/7 synergies,
+    visible: true
+  },
+  {
+    parentTitle: Polarised interactive superstructure,
+    project: 73,
+    id: Id_667,
+    name: unleash B2C schemas,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_668,
+    name: unleash collaborative users,
+    visible: true
+  },
+  {
+    parentTitle: Automated coherent capacity,
+    project: 57,
+    id: Id_669,
+    name: unleash collaborative vortals,
+    visible: true
+  },
+  {
+    parentTitle: De-engineered asynchronous architecture,
+    project: 89,
+    id: Id_670,
+    name: unleash dynamic systems,
+    visible: true
+  },
+  {
+    parentTitle: Optional fresh-thinking infrastructure,
+    project: 20,
+    id: Id_671,
+    name: unleash extensible users,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_672,
+    name: unleash killer technologies,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group global processimprovement,
+    project: 65,
+    id: Id_673,
+    name: unleash magnetic markets,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_674,
+    name: unleash rich ROI,
+    visible: true
+  },
+  {
+    parentTitle: Total assymetric groupware,
+    project: 11,
+    id: Id_675,
+    name: unleash synergistic deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_676,
+    name: unleash user-centric partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Optimized tangible internetsolution,
+    project: 37,
+    id: Id_677,
+    name: utilize bricks-and-clicks applications,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_678,
+    name: utilize efficient technologies,
+    visible: true
+  },
+  {
+    parentTitle: Persistent well-modulated archive,
+    project: 56,
+    id: Id_679,
+    name: utilize enterprise deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Decentralized client-server GraphicInterface,
+    project: 24,
+    id: Id_680,
+    name: utilize innovative vortals,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_681,
+    name: utilize interactive e-services,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_682,
+    name: utilize magnetic portals,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected systemic knowledgebase,
+    project: 18,
+    id: Id_683,
+    name: utilize real-time functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Compatible radical hub,
+    project: 1,
+    id: Id_684,
+    name: utilize visionary convergence,
+    visible: true
+  },
+  {
+    parentTitle: Profound demand-driven help-desk,
+    project: 31,
+    id: Id_685,
+    name: visualize cross-media synergies,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_686,
+    name: visualize efficient markets,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_687,
+    name: visualize end-to-end experiences,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_688,
+    name: visualize leading-edge deliverables,
+    visible: true
+  },
+  {
+    parentTitle: Automated didactic circuit,
+    project: 9,
+    id: Id_689,
+    name: visualize leading-edge portals,
+    visible: true
+  },
+  {
+    parentTitle: Optional explicit infrastructure,
+    project: 67,
+    id: Id_690,
+    name: visualize leading-edge synergies,
+    visible: true
+  },
+  {
+    parentTitle: Advanced directional customerloyalty,
+    project: 49,
+    id: Id_691,
+    name: visualize next-generation web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Optimized encompassing matrix,
+    project: 44,
+    id: Id_692,
+    name: visualize real-time e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Future-proofed stable openarchitecture,
+    project: 41,
+    id: Id_693,
+    name: visualize user-centric metrics,
+    visible: true
+  },
+  {
+    parentTitle: Open-architected disintermediate pricingstructure,
+    project: 35,
+    id: Id_694,
+    name: whiteboard cross-media niches,
+    visible: true
+  },
+  {
+    parentTitle: Cross-group leadingedge collaboration,
+    project: 54,
+    id: Id_695,
+    name: whiteboard enterprise e-commerce,
+    visible: true
+  },
+  {
+    parentTitle: Persevering impactful array,
+    project: 64,
+    id: Id_696,
+    name: whiteboard enterprise experiences,
+    visible: true
+  },
+  {
+    parentTitle: Down-sized cohesive moderator,
+    project: 87,
+    id: Id_697,
+    name: whiteboard holistic infrastructures,
+    visible: true
+  },
+  {
+    parentTitle: Total 6thgeneration core,
+    project: 33,
+    id: Id_698,
+    name: whiteboard killer channels,
+    visible: true
+  },
+  {
+    parentTitle: Integrated exuding knowledgebase,
+    project: 3,
+    id: Id_699,
+    name: whiteboard magnetic e-business,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_700,
+    name: whiteboard mission-critical e-tailers,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_701,
+    name: whiteboard next-generation functionalities,
+    visible: true
+  },
+  {
+    parentTitle: Automated 24hour support,
+    project: 21,
+    id: Id_702,
+    name: whiteboard robust partnerships,
+    visible: true
+  },
+  {
+    parentTitle: Devolved holistic definition,
+    project: 66,
+    id: Id_703,
+    name: whiteboard sexy niches,
+    visible: true
+  },
+  {
+    parentTitle: Programmable upward-trending strategy,
+    project: 70,
+    id: Id_704,
+    name: whiteboard strategic web-readiness,
+    visible: true
+  },
+  {
+    parentTitle: Total reciprocal hierarchy,
+    project: 88,
+    id: Id_705,
+    name: whiteboard value-added mindshare,
+    visible: true
+  },
+  {
+    parentTitle: Function-based global policy,
+    project: 58,
+    id: Id_706,
+    name: whiteboard virtual convergence,
+    visible: true
+  }
+]

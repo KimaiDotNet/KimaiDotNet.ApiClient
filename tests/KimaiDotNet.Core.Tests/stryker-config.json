@@ -1,0 +1,12 @@
+{
+  "stryker-config": {
+    "reporters": [
+      "progress",
+      "html"
+    ],
+    "mutate": [
+      "**/Activity.cs",
+      "DebugTracer.cs"
+    ]
+  }
+}

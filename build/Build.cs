@@ -31,6 +31,9 @@ using static Nuke.Common.Tools.ReportGenerator.ReportGeneratorTasks;
 
 [CheckBuildProjectConfigurations]
 [ShutdownDotNetAfterServerBuild]
+[AzurePipelines(
+    AzurePipelinesImage.WindowsLatest,
+    InvokedTargets = new[] { nameof(Test) })]
 [GitHubActions(
     "dotnet-core",
     GitHubActionsImage.WindowsLatest,
@@ -113,12 +116,12 @@ partial class Build : NukeBuild
 
     [Partition(2)] readonly Partition TestPartition;
     AbsolutePath TestResultDirectory => OutputDirectory / "test-results";
-    IEnumerable<Project> TestProjects => TestPartition.GetCurrent(Solution.GetProjects("*.Tests"));
+    IEnumerable<Project> TestProjects => TestPartition.GetCurrent(Solution.GetProjects("*.Core.Tests"));
     Target Test => _ => _
             .DependsOn(Compile)
             .Produces(TestResultDirectory / "*.trx")
             .Produces(TestResultDirectory / "*.xml")
-            .Partition(() => TestPartition)
+            .Partition(2)
             .Executes(() =>
             {
                 DotNetTest(_ => _
@@ -136,8 +139,7 @@ partial class Build : NukeBuild
                     .CombineWith(TestProjects, (_, v) => _
                         .SetProjectFile(v)
                         .SetLogger($"trx;LogFileName={v.Name}.trx")
-                        .When(InvokedTargets.Contains(Coverage) || IsServerBuild, _ => _
-                            .SetCoverletOutput(TestResultDirectory / $"{v.Name}.xml"))));
+                        .SetCoverletOutput(TestResultDirectory / $"{v.Name}.xml")));
 
                 TestResultDirectory.GlobFiles("*.trx").ForEach(x =>
                     AzurePipelines?.PublishTestResults(
