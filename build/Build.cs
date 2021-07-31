@@ -76,7 +76,7 @@ partial class Build : NukeBuild
     private const string ReleaseBranchPrefix = "release";
     private const string VersionBranchPrefix = "v";
 
-    private bool IsOriginalRepository => GitRepository != null && GitRepository.Identifier == "MarkZither/KimaiDotNet";
+    private bool IsOriginalRepository => GitRepository != null && GitRepository.Identifier == "KimaiDotNet/KimaiDotNet.ApiClient";
 
     private string NuGetPackageSource => "https://api.nuget.org/v3/index.json";
     private string GitHubPackageSource => $"https://nuget.pkg.github.com/{GitHubActions.GitHubRepositoryOwner}/index.json";
