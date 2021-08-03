@@ -57,6 +57,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Kimai2APIDocsTestsGeneral.CreateActivityUsingPostWithHttpMessagesAsync_WithOnlyNameAndDesc_ReturnsNewActivity.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>Kimai2APIDocsTestsGeneral.cs</DependentUpon>
+    </None>
+    <None Update="Kimai2APIDocsTestsGeneral.ListActivitiesUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>Kimai2APIDocsTestsGeneral.cs</DependentUpon>
+    </None>
+    <None Update="Kimai2APIDocsTests - Copy.CreateActivityUsingPostWithHttpMessagesAsync_WithOnlyNameAndDesc_ReturnsNewActivity.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>%(ParentFile)%(ParentExtension)</DependentUpon>
+    </None>
+    <None Update="Kimai2APIDocsTests - Copy.ListActivitiesUsingGetWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>%(ParentFile)%(ParentExtension)</DependentUpon>
+    </None>
     <None Update="Kimai2APIDocsTestsUser.CreateActivityUsingPostWithHttpMessagesAsync_StateUnderTest_ExpectedBehavior.verified.txt">
       <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
       <ParentExtension>$(MSBuildProjectExtension.Replace('proj', ''))</ParentExtension>
