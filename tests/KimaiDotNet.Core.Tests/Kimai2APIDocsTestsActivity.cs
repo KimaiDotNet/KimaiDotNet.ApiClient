@@ -19,9 +19,7 @@ using Xunit;
 namespace MarkZither.KimaiDotNet.Core.Tests
 {
     [UsesVerify]
-#pragma warning disable xUnit1000 // Test classes must be public
-    class Kimai2APIDocsTestsActivity : TestBase
-#pragma warning restore xUnit1000 // Test classes must be public
+    public class Kimai2APIDocsTestsActivity : TestBase
     {
         private HttpClient fakeHttpClient;
         public Kimai2APIDocsTestsActivity() : base()
