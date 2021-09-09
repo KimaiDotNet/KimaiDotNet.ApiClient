@@ -1,4 +1,4 @@
 {
   "$schema": "./build.schema.json",
-  "Solution": "KimaiDotNet.sln"
+  "Solution": "KimaiDotNet.ApiClient.sln"
 }

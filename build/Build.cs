@@ -61,11 +61,11 @@ partial class Build : NukeBuild
     [CI] private readonly GitHubActions GitHubActions;
 
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
-    private readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
+    readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
-    [Solution] private readonly Solution Solution;
-    [GitRepository] private readonly GitRepository GitRepository;
-    [GitVersion(Framework = "netcoreapp3.1")] private readonly GitVersion GitVersion;
+    [Solution] readonly Solution Solution;
+    [GitRepository] readonly GitRepository GitRepository;
+    [GitVersion(Framework = "net5.0")] readonly GitVersion GitVersion;
 
     AbsolutePath SourceDirectory => RootDirectory / "src";
     AbsolutePath TestsDirectory => RootDirectory / "tests";
@@ -105,8 +105,7 @@ partial class Build : NukeBuild
          .Executes(() =>
          {
              DotNetBuild(s => s
-                 //.SetProjectFile(Solution)
-                 .SetProjectFile(SourceDirectory / "KimaiDotNet.Core")
+                 .SetProjectFile(Solution)
                  .SetConfiguration(Configuration)
                  .SetAssemblyVersion(GitVersion.AssemblySemVer)
                  .SetFileVersion(GitVersion.AssemblySemFileVer)
@@ -130,15 +129,14 @@ partial class Build : NukeBuild
                     .SetNoBuild(InvokedTargets.Contains(Compile))
                     .ResetVerbosity()
                     .SetResultsDirectory(TestResultDirectory)
-                    .When(InvokedTargets.Contains(Coverage) || IsServerBuild, _ => _
-                        .EnableCollectCoverage()
-                        .SetCoverletOutputFormat(CoverletOutputFormat.cobertura)
-                        .SetExcludeByFile("*.Generated.cs")
-                        .When(IsServerBuild, _ => _
-                            .EnableUseSourceLink()))
+                    .EnableCollectCoverage()
+                    .SetCoverletOutputFormat(CoverletOutputFormat.cobertura)
+                    .SetExcludeByFile("*.Generated.cs")
+                    .When(IsServerBuild, _ => _
+                        .EnableUseSourceLink())
                     .CombineWith(TestProjects, (_, v) => _
                         .SetProjectFile(v)
-                        .SetLogger($"trx;LogFileName={v.Name}.trx")
+                        .SetLoggers($"trx;LogFileName={v.Name}.trx")
                         .SetCoverletOutput(TestResultDirectory / $"{v.Name}.xml")));
 
                 TestResultDirectory.GlobFiles("*.trx").ForEach(x =>
