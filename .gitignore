@@ -36,6 +36,9 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+# Allow generated Kiota API sub-folders named Log
+!src/**/Api/**/Log/
+!src/**/Api/**/Log/**
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/

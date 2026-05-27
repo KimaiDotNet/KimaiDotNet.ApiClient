@@ -18,7 +18,6 @@ namespace MarkZither.KimaiDotNet.Core.Tests
         {
             // Arrange
             var client = this.CreateKimaiClient();
-            int id = 0;
             var body = new Api.Activities.Item.Meta.MetaPatchRequestBody();
 
             // Act & Assert
@@ -75,7 +74,6 @@ namespace MarkZither.KimaiDotNet.Core.Tests
             // Arrange
             var client = this.CreateKimaiClient();
             var body = new ActivityEditForm();
-            int id = 0;
 
             // Act & Assert
             Assert.True(false); // placeholder - needs a real activity id
@@ -86,7 +84,6 @@ namespace MarkZither.KimaiDotNet.Core.Tests
         {
             // Arrange
             var client = this.CreateKimaiClient();
-            int id = 0;
 
             // Act & Assert
             Assert.True(false); // placeholder - needs a real activity id
@@ -97,7 +94,6 @@ namespace MarkZither.KimaiDotNet.Core.Tests
         {
             // Arrange
             var client = this.CreateKimaiClient();
-            int id = 0;
             var body = new ActivityRateForm();
 
             // Act & Assert
@@ -109,8 +105,6 @@ namespace MarkZither.KimaiDotNet.Core.Tests
         {
             // Arrange
             var client = this.CreateKimaiClient();
-            int id = 0;
-            int rateId = 0;
 
             // Act & Assert
             Assert.True(false); // placeholder - needs real ids
