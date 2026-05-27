@@ -9,6 +9,7 @@ using Xunit;
 
 namespace MarkZither.KimaiDotNet.Core.Tests
 {
+    [Trait("Category", "Integration")]
     public class KimaiClientTestsActivity : TestBase
     {
         public KimaiClientTestsActivity() : base() { }

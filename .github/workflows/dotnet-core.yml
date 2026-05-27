@@ -26,7 +26,7 @@ jobs:
         run: dotnet build KimaiDotNet.ApiClient.sln --no-restore -c Release
 
       - name: Test
-        run: dotnet test KimaiDotNet.ApiClient.sln --no-build -c Release --logger "trx;LogFileName=test-results.trx"
+        run: dotnet test KimaiDotNet.ApiClient.sln --no-build -c Release --filter "Category!=Integration" --logger "trx;LogFileName=test-results.trx"
 
       - name: Upload test results
         if: always()
@@ -76,7 +76,7 @@ jobs:
         run: dotnet build KimaiDotNet.ApiClient.sln --no-restore -c Release -p:Version=${{ steps.version.outputs.VERSION }}
 
       - name: Test
-        run: dotnet test KimaiDotNet.ApiClient.sln --no-build -c Release
+        run: dotnet test KimaiDotNet.ApiClient.sln --no-build -c Release --filter "Category!=Integration"
 
       - name: Pack
         run: >
