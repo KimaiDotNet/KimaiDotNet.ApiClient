@@ -1,31 +1,30 @@
 ﻿using MarkZither.KimaiDotNet.Core.Tests.Configuration;
+using Microsoft.Kiota.Abstractions.Authentication;
+using Microsoft.Kiota.Http.HttpClientLibrary;
 
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MarkZither.KimaiDotNet.Core.Tests
 {
     public class TestBase
     {
-        internal HttpClient Client;
+        internal KimaiClient Client;
         internal KimaiApiOptions configuration;
         public TestBase()
         {
             configuration = TestHelper.GetApplicationConfiguration(Directory.GetCurrentDirectory());
-            Client = new HttpClient();
-            Client.BaseAddress = new Uri(configuration.Url);
-            Client.DefaultRequestHeaders.Add("X-AUTH-USER", configuration.Username);
-            Client.DefaultRequestHeaders.Add("X-AUTH-TOKEN", configuration.Password);
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Add("X-AUTH-USER", configuration.Username);
+            httpClient.DefaultRequestHeaders.Add("X-AUTH-TOKEN", configuration.Password);
+            var adapter = new HttpClientRequestAdapter(new AnonymousAuthenticationProvider(), httpClient: httpClient);
+            adapter.BaseUrl = configuration.Url;
+            Client = new KimaiClient(adapter);
         }
-        internal Kimai2APIDocs CreateKimai2APIDocs()
+        internal KimaiClient CreateKimaiClient()
         {
-            return new Kimai2APIDocs(
-                this.Client, true);
+            return Client;
         }
     }
 }

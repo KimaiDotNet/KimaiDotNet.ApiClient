@@ -27,7 +27,7 @@ namespace MarkZither.KimaiDotNet.Core.Tests.Models
             activity.Name = "testActivity";
 
             // Act
-            activity.Validate();
+            // (no Validate method in Kiota-generated model)
 
             // Assert
             Assert.Equal("testActivity", activity.Name);

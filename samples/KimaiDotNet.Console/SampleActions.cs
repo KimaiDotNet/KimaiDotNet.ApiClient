@@ -2,12 +2,11 @@ using MarkZither.KimaiDotNet;
 
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.Kiota.Abstractions.Authentication;
+using Microsoft.Kiota.Http.HttpClientLibrary;
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace KimaiDotNet.Console
@@ -21,22 +20,22 @@ namespace KimaiDotNet.Console
             _logger = loggerFactory.CreateLogger(typeof(KimaiAPIActions));
             _sampleOptions = sampleOptions.Value;
         }
-        public Task<int> GetVersion()
+        public async Task<int> GetVersion()
         {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(_sampleOptions.BaseUrl);
-            client.DefaultRequestHeaders.Add("X-AUTH-USER", _sampleOptions.UserName);
-            client.DefaultRequestHeaders.Add("X-AUTH-TOKEN", _sampleOptions.Password);
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Add("X-AUTH-USER", _sampleOptions.UserName);
+            httpClient.DefaultRequestHeaders.Add("X-AUTH-TOKEN", _sampleOptions.Password);
+            var adapter = new HttpClientRequestAdapter(new AnonymousAuthenticationProvider(), httpClient: httpClient);
+            adapter.BaseUrl = _sampleOptions.BaseUrl;
+            var client = new KimaiClient(adapter);
 
-            Kimai2APIDocs docs = new Kimai2APIDocs(client, false);
-            var version = docs.VersionMethod();
+            var version = await client.Api.Version.GetAsync();
 
-            System.Console.WriteLine($"Version Name: {version.Name}");
-            System.Console.WriteLine($"Version Semver: {version.Semver}");
-            System.Console.WriteLine($"Version Property: {version.VersionProperty}");
+            System.Console.WriteLine($"Version: {version?.Version}");
+            System.Console.WriteLine($"Version Id: {version?.VersionId}");
+            System.Console.WriteLine($"Copyright: {version?.Copyright}");
             _logger.LogInformation(1000, "Calling Get Version as: {userName}", _sampleOptions.UserName);
-            _logger.LogDebug(1000, "Got {translations} translations from the database ", 2);
-            return Task.FromResult(0);
+            return 0;
         }
     }
 

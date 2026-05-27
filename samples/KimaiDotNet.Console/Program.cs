@@ -14,7 +14,6 @@ using Microsoft.Extensions.Configuration;
 using System.Linq;
 using System.Collections.Generic;
 using System.Net.Http;
-using Microsoft.Rest;
 
 namespace KimaiDotNet.Console
 {
@@ -24,7 +23,6 @@ namespace KimaiDotNet.Console
                     .UseHost(_ => Host.CreateDefaultBuilder(),
                         host =>
                         {
-                            ServiceClientTracing.IsEnabled = true;
                             host.ConfigureAppConfiguration((hostingContext, config) =>
                             {
                                 // The next 2 lines commented out as they are added by default in the correct order
@@ -91,27 +89,11 @@ namespace KimaiDotNet.Console
         private static void Run(SampleOptions options, IHost host)
         {
             var serviceProvider = host.Services;
-            //var poProcessor = serviceProvider.GetRequiredService<IKimaiAPIActions>();
-            //var sampleOption = serviceProvider.GetRequiredService<SampleOptions>();
             var loggerFactory = serviceProvider.GetRequiredService<ILoggerFactory>();
             var logger = loggerFactory.CreateLogger(typeof(Program));
 
-            var userName = options.UserName;
-            var password = options.Password;
-
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(options.BaseUrl);
-            client.DefaultRequestHeaders.Add("X-AUTH-USER", userName);
-            client.DefaultRequestHeaders.Add("X-AUTH-TOKEN", password);
-
-            Kimai2APIDocs docs = new Kimai2APIDocs(client, false);
-            var version = docs.VersionMethod();
-
-            System.Console.WriteLine($"Version Name: {version.Name}");
-            System.Console.WriteLine($"Version Semver: {version.Semver}");
-            System.Console.WriteLine($"Version Property: {version.VersionProperty}");
-            logger.LogInformation(1000, "Calling Get Version as: {userName}", userName);
-            //poProcessor.GetVersion();
+            var actions = new KimaiAPIActions(loggerFactory, Microsoft.Extensions.Options.Options.Create(options));
+            actions.GetVersion().GetAwaiter().GetResult();
         }
     }
 }
