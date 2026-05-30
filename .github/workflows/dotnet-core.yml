@@ -52,6 +52,59 @@ jobs:
           name: nuget-branch-preview
           path: ./nupkg/
 
+  integration-test:
+    name: Integration Tests (Kimai container)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore & Build
+        run: |
+          dotnet restore KimaiDotNet.ApiClient.sln
+          dotnet build KimaiDotNet.ApiClient.sln --no-restore -c Release
+
+      - name: Start Kimai container
+        run: docker compose up -d mysql kimai
+
+      - name: Wait for Kimai to be healthy
+        run: |
+          echo "Waiting for Kimai to become healthy..."
+          for i in $(seq 1 30); do
+            STATUS=$(docker inspect --format='{{.State.Health.Status}}' "$(docker compose ps -q kimai)" 2>/dev/null || echo "unknown")
+            echo "  attempt $i: $STATUS"
+            if [ "$STATUS" = "healthy" ]; then break; fi
+            sleep 10
+          done
+          if [ "$STATUS" != "healthy" ]; then
+            echo "Kimai did not become healthy in time"
+            docker compose logs kimai
+            exit 1
+          fi
+
+      - name: Seed test data
+        run: |
+          docker compose up kimai-init
+          docker compose logs kimai-init
+
+      - name: Run integration tests
+        run: dotnet test KimaiDotNet.ApiClient.sln --no-build -c Release --filter "Category=Integration" --logger "trx;LogFileName=integration-test-results.trx"
+
+      - name: Upload integration test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: integration-test-results
+          path: '**/*.trx'
+
+      - name: Stop containers
+        if: always()
+        run: docker compose down -v
+
   publish:
     name: Pack & Publish to NuGet
     needs: build

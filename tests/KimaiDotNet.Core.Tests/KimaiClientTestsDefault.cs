@@ -1,6 +1,5 @@
+using System.IO;
 using System.Threading.Tasks;
-
-using VerifyXunit;
 
 using Xunit;
 
@@ -17,8 +16,11 @@ namespace MarkZither.KimaiDotNet.Core.Tests
             // Arrange
             var client = this.CreateKimaiClient();
 
-            // Act & Assert
-            Assert.True(false); // placeholder - needs live Kimai instance
+            // Act
+            var result = await client.Api.Config.Timesheet.GetAsync();
+
+            // Assert
+            Assert.NotNull(result);
         }
 
         [Fact]
@@ -27,8 +29,14 @@ namespace MarkZither.KimaiDotNet.Core.Tests
             // Arrange
             var client = this.CreateKimaiClient();
 
-            // Act & Assert
-            Assert.True(false); // placeholder - needs live Kimai instance
+            // Act
+            var result = await client.Api.Ping.GetAsync();
+
+            // Assert
+            Assert.NotNull(result);
+            using var reader = new StreamReader(result);
+            var body = await reader.ReadToEndAsync();
+            Assert.Contains("pong", body);
         }
 
         [Fact]
@@ -41,7 +49,9 @@ namespace MarkZither.KimaiDotNet.Core.Tests
             var result = await client.Api.Version.GetAsync();
 
             // Assert
-            Assert.True(false); // placeholder - update assertion when connected to live instance
+            Assert.NotNull(result);
+            Assert.False(string.IsNullOrEmpty(result.Version));
         }
     }
 }
+

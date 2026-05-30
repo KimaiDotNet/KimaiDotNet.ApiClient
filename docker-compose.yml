@@ -1,0 +1,46 @@
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: kimai
+      MYSQL_USER: kimai
+      MYSQL_PASSWORD: kimai
+      MYSQL_ROOT_PASSWORD: kimai
+    ports:
+      - "3399:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "kimai", "-pkimai"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  kimai:
+    image: kimai/kimai2:apache
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: mysql://kimai:kimai@mysql:3306/kimai
+      APP_SECRET: change-me-in-production
+      TRUSTED_PROXIES: 127.0.0.1
+    ports:
+      - "8001:8001"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8001/en/login"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+      start_period: 30s
+
+  kimai-init:
+    image: kimai/kimai2:apache
+    depends_on:
+      kimai:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: mysql://kimai:kimai@mysql:3306/kimai
+      APP_SECRET: change-me-in-production
+    volumes:
+      - ./init-kimai.sh:/init-kimai.sh:ro
+    entrypoint: ["sh", "/init-kimai.sh"]
+    restart: "no"

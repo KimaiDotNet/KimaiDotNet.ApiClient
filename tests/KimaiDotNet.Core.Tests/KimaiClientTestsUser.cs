@@ -1,7 +1,5 @@
 using System.Threading.Tasks;
 
-using VerifyXunit;
-
 using Xunit;
 
 namespace MarkZither.KimaiDotNet.Core.Tests
@@ -22,7 +20,7 @@ namespace MarkZither.KimaiDotNet.Core.Tests
 
             // Assert
             Assert.NotNull(result);
-            await Verifier.Verify(result);
+            Assert.Equal("kimai-admin", result.Username);
         }
 
         [Fact]
@@ -36,22 +34,23 @@ namespace MarkZither.KimaiDotNet.Core.Tests
 
             // Assert
             Assert.NotNull(result);
-            await Verifier.Verify(result);
+            Assert.NotEmpty(result);
         }
 
         [Fact]
         public async Task GetUserById_GetById_ReturnsUser()
         {
-            // Arrange
+            // Arrange - admin user has ID 1 on a fresh container
             var client = this.CreateKimaiClient();
-            int id = 1;
 
             // Act
-            var result = await client.Api.Users[id.ToString()].GetAsync();
+            var result = await client.Api.Users["1"].GetAsync();
 
             // Assert
             Assert.NotNull(result);
-            await Verifier.Verify(result);
+            Assert.Equal(1, result.Id);
+            Assert.Equal("kimai-admin", result.Username);
         }
     }
 }
+

@@ -1,9 +1,6 @@
 using MarkZither.KimaiDotNet.Models;
 
-using System.IO;
 using System.Threading.Tasks;
-
-using VerifyXunit;
 
 using Xunit;
 
@@ -14,15 +11,10 @@ namespace MarkZither.KimaiDotNet.Core.Tests
     {
         public KimaiClientTestsActivity() : base() { }
 
-        [Fact]
+        [Fact(Skip = "Requires custom meta fields configured in Kimai - see https://www.kimai.org/documentation/custom-fields.html")]
         public async Task UpdateActivityMeta_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange
-            var client = this.CreateKimaiClient();
-            var body = new Api.Activities.Item.Meta.MetaPatchRequestBody();
-
-            // Act & Assert
-            Assert.True(false); // placeholder - needs a real activity id and meta field
+            await Task.CompletedTask;
         }
 
         [Fact]
@@ -36,7 +28,7 @@ namespace MarkZither.KimaiDotNet.Core.Tests
 
             // Assert
             Assert.NotNull(result);
-            await Verifier.Verify(result);
+            Assert.NotEmpty(result);
         }
 
         [Fact]
@@ -44,71 +36,89 @@ namespace MarkZither.KimaiDotNet.Core.Tests
         {
             // Arrange
             var client = this.CreateKimaiClient();
-            var body = new ActivityEditForm { Name = "TestActivity", Comment = "MarkTest" };
+            var body = new ActivityEditForm { Name = "CI-Created-Activity", Comment = "Created by CI integration test" };
 
             // Act
             var result = await client.Api.Activities.PostAsync(body);
 
             // Assert
             Assert.NotNull(result);
-            await Verifier.Verify(result);
+            Assert.Equal("CI-Created-Activity", result.Name);
+            Assert.True(result.Id > 0);
         }
 
         [Fact]
         public async Task GetActivityById_GetById_ReturnsOneActivity()
         {
-            // Arrange
+            // Arrange - activity ID 1 is seeded by init-kimai.sh
             var client = this.CreateKimaiClient();
-            int id = 862;
 
             // Act
-            var result = await client.Api.Activities[id.ToString()].GetAsync();
+            var result = await client.Api.Activities["1"].GetAsync();
 
             // Assert
             Assert.NotNull(result);
-            await Verifier.Verify(result);
+            Assert.Equal(1, result.Id);
+            Assert.Equal("Test Activity", result.Name);
         }
 
         [Fact]
         public async Task UpdateActivity_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange
+            // Arrange - activity ID 1 is seeded by init-kimai.sh
             var client = this.CreateKimaiClient();
-            var body = new ActivityEditForm();
+            var body = new ActivityEditForm { Comment = "Updated by CI integration test" };
 
-            // Act & Assert
-            Assert.True(false); // placeholder - needs a real activity id
+            // Act
+            var result = await client.Api.Activities["1"].PatchAsync(body);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal(1, result.Id);
         }
 
         [Fact]
         public async Task ListActivityRates_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange
+            // Arrange - activity ID 1 is seeded by init-kimai.sh
             var client = this.CreateKimaiClient();
 
-            // Act & Assert
-            Assert.True(false); // placeholder - needs a real activity id
+            // Act
+            var result = await client.Api.Activities["1"].Rates.GetAsync();
+
+            // Assert
+            Assert.NotNull(result);
         }
 
         [Fact]
         public async Task AddActivityRate_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange
+            // Arrange - activity ID 1 is seeded by init-kimai.sh
             var client = this.CreateKimaiClient();
-            var body = new ActivityRateForm();
+            var body = new ActivityRateForm { Rate = 100.0, IsFixed = false };
 
-            // Act & Assert
-            Assert.True(false); // placeholder - needs a real activity id
+            // Act
+            var result = await client.Api.Activities["1"].Rates.PostAsync(body);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.True(result.Id > 0);
         }
 
         [Fact]
         public async Task DeleteActivityRate_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange
+            // Arrange - create a rate to delete so this test is self-contained
             var client = this.CreateKimaiClient();
+            var body = new ActivityRateForm { Rate = 50.0, IsFixed = false };
+            var created = await client.Api.Activities["1"].Rates.PostAsync(body);
+            Assert.NotNull(created);
 
-            // Act & Assert
-            Assert.True(false); // placeholder - needs real ids
+            // Act
+            await client.Api.Activities["1"].Rates[created.Id.ToString()].DeleteAsync();
+
+            // Assert – no exception means success (204 No Content)
         }
     }
 }
+
