@@ -16,8 +16,7 @@ namespace MarkZither.KimaiDotNet.Core.Tests
         {
             configuration = TestHelper.GetApplicationConfiguration(Directory.GetCurrentDirectory());
             var httpClient = new HttpClient();
-            httpClient.DefaultRequestHeaders.Add("X-AUTH-USER", configuration.Username);
-            httpClient.DefaultRequestHeaders.Add("X-AUTH-TOKEN", configuration.Password);
+            httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {configuration.Password}");
             var adapter = new HttpClientRequestAdapter(new AnonymousAuthenticationProvider(), httpClient: httpClient);
             adapter.BaseUrl = configuration.Url;
             Client = new KimaiClient(adapter);

@@ -53,24 +53,21 @@ $CONSOLE dbal:run-sql \
 echo "==> Seeding test data..."
 
 CUSTOMER=$(curl -sf -X POST "${BASE_URL}/api/customers" \
-  -H "X-AUTH-USER: kimai-admin" \
-  -H "X-AUTH-TOKEN: ${API_TOKEN}" \
+  -H "Authorization: Bearer ${API_TOKEN}" \
   -H "Content-Type: application/json" \
   -d '{"name":"Test Customer","currency":"USD","timezone":"UTC","country":"US","visible":true}')
 CUSTOMER_ID=$(echo "${CUSTOMER}" | grep -o '"id":[0-9]*' | head -1 | grep -o '[0-9]*')
 echo "    Customer id=${CUSTOMER_ID}"
 
 PROJECT=$(curl -sf -X POST "${BASE_URL}/api/projects" \
-  -H "X-AUTH-USER: kimai-admin" \
-  -H "X-AUTH-TOKEN: ${API_TOKEN}" \
+  -H "Authorization: Bearer ${API_TOKEN}" \
   -H "Content-Type: application/json" \
   -d "{\"name\":\"Test Project\",\"customer\":${CUSTOMER_ID},\"visible\":true}")
 PROJECT_ID=$(echo "${PROJECT}" | grep -o '"id":[0-9]*' | head -1 | grep -o '[0-9]*')
 echo "    Project  id=${PROJECT_ID}"
 
 ACTIVITY=$(curl -sf -X POST "${BASE_URL}/api/activities" \
-  -H "X-AUTH-USER: kimai-admin" \
-  -H "X-AUTH-TOKEN: ${API_TOKEN}" \
+  -H "Authorization: Bearer ${API_TOKEN}" \
   -H "Content-Type: application/json" \
   -d "{\"name\":\"Test Activity\",\"project\":${PROJECT_ID},\"visible\":true}")
 ACTIVITY_ID=$(echo "${ACTIVITY}" | grep -o '"id":[0-9]*' | head -1 | grep -o '[0-9]*')
