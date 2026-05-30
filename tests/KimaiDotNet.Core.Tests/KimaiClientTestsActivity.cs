@@ -104,12 +104,6 @@ namespace MarkZither.KimaiDotNet.Core.Tests
             Assert.NotNull(result);
             Assert.True(result.Id > 0);
         }
-
-        [Fact(Skip = "Rate deletion may require additional Kimai configuration - AddActivityRate_StateUnderTest_ExpectedBehavior validates rate creation works")]
-        public async Task DeleteActivityRate_StateUnderTest_ExpectedBehavior()
-        {
-            await Task.CompletedTask;
-        }
     }
 }
 
